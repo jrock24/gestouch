@@ -5,7 +5,7 @@ This is a Haxe port of the original library by fijot @ [https://github.com/fljot
 
 This is intended to be used with OpenFL and Starling
 
-#Quickstart
+## Quickstart
 After the Starling instance has been instantiated simply call
 ```
 Gestouch.init();
@@ -36,7 +36,7 @@ private function onTap(e:GestureEvent):Void
 ```
 
 
-#Advanced Usage
+## Advanced Usage
 
 ```
 _panGesture = new PanGesture(this);
@@ -72,7 +72,7 @@ private function getEffectiveScale(dob:DisplayObjectContainer, scale:Point = nul
 ```
 
 
-#Dependencies
+## Dependencies
 **Install OpenFL**
 (4.9.2 Included)
 ```
